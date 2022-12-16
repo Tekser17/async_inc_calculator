@@ -17,14 +17,7 @@ async def main() -> None:
     income = 0.0
     async with aiohttp.ClientSession() as session:
         accounts = [
-            "tgritsaev.crowdforces.near",  # 1й
-            "dyominov.crowdforces.near",  #2й
-            "god_of_code.crowdforces.near",  #3й
-            "tintin122.crowdforces.near",  #4й
-            "vyshniak_ivan.crowdforces.near",  # 5й
-            "tekser15.near",
-            "60e4d771034dadae8a754aadfd9ad0dfd6e94774360b549a502302a0000b8f49",
-            "ba8ec64b357e447523b34383f037e390683df567025a0da231af39b105bcc10f",
+            "mamont.near"
         ]
         tasks = []
         for acc in accounts:
